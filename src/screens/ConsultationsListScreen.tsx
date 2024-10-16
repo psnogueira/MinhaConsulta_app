@@ -64,7 +64,7 @@ const ConsultationsListScreen = ({ navigation }: Props) => {
                   </Button>
                 ) : (
                   <>
-                    <TextArea placeholder="Descreva sua solicitação" mt={2} />
+                    <Textarea placeholder="Descreva sua solicitação" mt={2} />
                     <Button mt={2} onPress={() => handleRequestChange(item.id)}>
                       Solicitar Alteração
                     </Button>
